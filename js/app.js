@@ -26,7 +26,7 @@
 
 function isInView(element) {
   const container = element.getBoundingClientRect();
-  return container.top + 350 < window.innerHeight && container.bottom >= 750;
+  return container.top + 200 < window.innerHeight && container.bottom >= 500;
 }
 
 /* End Helper Functions
